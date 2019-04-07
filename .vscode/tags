@@ -1,0 +1,98 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../gamerater/main/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20190331_1616.py	../gamerater/main/migrations/0002_auto_20190331_1616.py	1;"	kind:file	line:1
+0003_game_platform.py	../gamerater/main/migrations/0003_game_platform.py	1;"	kind:file	line:1
+0004_game_status.py	../gamerater/main/migrations/0004_game_status.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../gamerater/gamerater/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../gamerater/gamerater/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+BASE_DIR	../gamerater/gamerater/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	../gamerater/gamerater/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DEBUG	../gamerater/gamerater/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+Game	../gamerater/main/models.py	/^class Game(models.Model):$/;"	kind:class	line:4
+GameAdmin	../gamerater/main/admin.py	/^class GameAdmin(admin.ModelAdmin):$/;"	kind:class	line:7
+INSTALLED_APPS	../gamerater/gamerater/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../gamerater/gamerater/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
+MIDDLEWARE	../gamerater/gamerater/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+MainConfig	../gamerater/main/apps.py	/^class MainConfig(AppConfig):$/;"	kind:class	line:4
+Migration	../gamerater/main/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../gamerater/main/migrations/0003_game_platform.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../gamerater/main/migrations/0004_game_status.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+ROOT_URLCONF	../gamerater/gamerater/settings.py	/^ROOT_URLCONF = 'gamerater.urls'$/;"	kind:variable	line:53
+SECRET_KEY	../gamerater/gamerater/settings.py	/^SECRET_KEY = 'nvbylw0+o*(jq11m2=&-i#&d6y804xa1fsaso6^n@4y&+r*!-t'$/;"	kind:variable	line:23
+STATIC_URL	../gamerater/gamerater/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+TEMPLATES	../gamerater/gamerater/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	../gamerater/gamerater/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
+USE_I18N	../gamerater/gamerater/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
+USE_L10N	../gamerater/gamerater/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
+USE_TZ	../gamerater/gamerater/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
+WSGI_APPLICATION	../gamerater/gamerater/settings.py	/^WSGI_APPLICATION = 'gamerater.wsgi.application'$/;"	kind:variable	line:71
+__init__.py	../gamerater/gamerater/__init__.py	1;"	kind:file	line:1
+__init__.py	../gamerater/main/__init__.py	1;"	kind:file	line:1
+__init__.py	../gamerater/main/migrations/__init__.py	1;"	kind:file	line:1
+__str__	../gamerater/main/models.py	/^  def __str__(self):$/;"	kind:member	line:14
+admin.py	../gamerater/main/admin.py	1;"	kind:file	line:1
+application	../gamerater/gamerater/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../gamerater/main/apps.py	1;"	kind:file	line:1
+dependencies	../gamerater/main/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../gamerater/main/migrations/0003_game_platform.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../gamerater/main/migrations/0004_game_status.py	/^    dependencies = [$/;"	kind:variable	line:8
+description	../gamerater/main/models.py	/^  description = models.TextField(default="")$/;"	kind:variable	line:10
+django-admin.py	../myvenv/bin/django-admin.py	1;"	kind:file	line:1
+field	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            field=models.DateField(blank=True, null=True),$/;"	kind:variable	line:31
+field	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            field=models.DecimalField(blank=True, decimal_places=7, max_digits=10, null=True),$/;"	kind:variable	line:21
+field	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            field=models.ImageField(blank=True, null=True, upload_to=''),$/;"	kind:variable	line:26
+field	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            field=models.IntegerField(blank=True, null=True),$/;"	kind:variable	line:36
+field	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            field=models.TextField(default=''),$/;"	kind:variable	line:16
+field	../gamerater/main/migrations/0003_game_platform.py	/^            field=models.CharField(default='', max_length=40),$/;"	kind:variable	line:16
+field	../gamerater/main/migrations/0004_game_status.py	/^            field=models.CharField(default='', max_length=40),$/;"	kind:variable	line:16
+fields	../gamerater/main/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:16
+initial	../gamerater/main/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:8
+list_display	../gamerater/main/admin.py	/^  list_display = ('name', 'platform', 'metacritic_rating', 'released')$/;"	kind:variable	line:9
+list_filter	../gamerater/main/admin.py	/^  list_filter = ('year', 'released')$/;"	kind:variable	line:10
+manage.py	../gamerater/manage.py	1;"	kind:file	line:1
+metacritic_rating	../gamerater/main/models.py	/^  metacritic_rating = models.DecimalField(null=True, blank=True, decimal_places=7, max_digits=10)$/;"	kind:variable	line:11
+model_name	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            model_name='game',$/;"	kind:variable	line:14
+model_name	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            model_name='game',$/;"	kind:variable	line:19
+model_name	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            model_name='game',$/;"	kind:variable	line:24
+model_name	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            model_name='game',$/;"	kind:variable	line:29
+model_name	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            model_name='game',$/;"	kind:variable	line:34
+model_name	../gamerater/main/migrations/0003_game_platform.py	/^            model_name='game',$/;"	kind:variable	line:14
+model_name	../gamerater/main/migrations/0004_game_status.py	/^            model_name='game',$/;"	kind:variable	line:14
+models.py	../gamerater/main/models.py	1;"	kind:file	line:1
+name	../gamerater/main/apps.py	/^    name = 'main'$/;"	kind:variable	line:5
+name	../gamerater/main/migrations/0001_initial.py	/^            name='Game',$/;"	kind:variable	line:15
+name	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            name='description',$/;"	kind:variable	line:15
+name	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            name='metacritic_rating',$/;"	kind:variable	line:20
+name	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            name='photo',$/;"	kind:variable	line:25
+name	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            name='released',$/;"	kind:variable	line:30
+name	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^            name='year',$/;"	kind:variable	line:35
+name	../gamerater/main/migrations/0003_game_platform.py	/^            name='platform',$/;"	kind:variable	line:15
+name	../gamerater/main/migrations/0004_game_status.py	/^            name='status',$/;"	kind:variable	line:15
+name	../gamerater/main/models.py	/^  name = models.CharField(max_length=128)$/;"	kind:variable	line:5
+name_with_platform	../gamerater/main/models.py	/^  def name_with_platform(self):$/;"	kind:member	line:17
+operations	../gamerater/main/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:13
+operations	../gamerater/main/migrations/0002_auto_20190331_1616.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../gamerater/main/migrations/0003_game_platform.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../gamerater/main/migrations/0004_game_status.py	/^    operations = [$/;"	kind:variable	line:12
+photo	../gamerater/main/models.py	/^  photo = models.ImageField(null=True, blank=True)$/;"	kind:variable	line:12
+platform	../gamerater/main/models.py	/^  platform = models.CharField(default="", max_length=40)$/;"	kind:variable	line:6
+released	../gamerater/main/models.py	/^  released = models.DateField(null=True, blank=True)$/;"	kind:variable	line:9
+search_fields	../gamerater/main/admin.py	/^  search_fields = ('name', 'description')$/;"	kind:variable	line:11
+settings.py	../gamerater/gamerater/settings.py	1;"	kind:file	line:1
+status	../gamerater/main/models.py	/^  status = models.CharField(default="", max_length=40)$/;"	kind:variable	line:7
+test_response	../gamerater/main/views.py	/^def test_response(request):$/;"	kind:function	line:6
+tests.py	../gamerater/main/tests.py	1;"	kind:file	line:1
+urlpatterns	../gamerater/gamerater/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	../gamerater/main/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urls.py	../gamerater/gamerater/urls.py	1;"	kind:file	line:1
+urls.py	../gamerater/main/urls.py	1;"	kind:file	line:1
+views.py	../gamerater/main/views.py	1;"	kind:file	line:1
+wsgi.py	../gamerater/gamerater/wsgi.py	1;"	kind:file	line:1
+year	../gamerater/main/models.py	/^  year = models.IntegerField(null=True, blank=True)$/;"	kind:variable	line:8

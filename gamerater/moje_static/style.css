@@ -1,0 +1,32 @@
+body
+{
+  background-color: rgb(184, 184, 184);
+  padding: 25px;
+}
+
+img
+{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.card
+{
+  width: 1250px;
+}
+#login
+{
+  width: 1250px;
+}
+
+.desc
+{
+  margin-left: 30px;
+}
+
+
+footer
+{
+  text-align: center;
+}

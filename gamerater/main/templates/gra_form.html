@@ -1,0 +1,17 @@
+{% extends 'glowny.html' %}
+{% load bootstrap %}
+{% block title %} Zapisz gre {% endblock %}
+
+{% block body %}
+  <div class="card" style="width: 1000px;">
+    <div class="card-body">
+      <h5 class="card-title">Zapisz</h5>
+      <form role="role" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form|bootstrap }}
+        <a href="{% url 'wszystkie_gry' %}"><button type="button" class="btn btn-success"> Cofnij</button></a>
+        <button type="submit" class="btn btn-primary"> Zapisz </button>
+      </form>
+    </div>
+  </div>
+{% endblock %}

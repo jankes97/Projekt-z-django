@@ -1,0 +1,50 @@
+kamil@kamil-asus-ubuntu:~/Dokumenty/udemy$ source myvenv/bin/activate
+  (myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/udemy/myvenv$
+
+  (myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/udemy$ python -m django --version
+    2.0.13
+
+  (myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/udemy/gamerater$ python manage.py shell
+    >>>>
+
+
+  (myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/udemy/gamerater$ python manage.py runserver
+    Performing system checks...
+
+    System check identified no issues (0 silenced).
+
+    You have 14 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+    Run 'python manage.py migrate' to apply them.
+
+    March 12, 2019 - 10:32:20
+    Django version 2.0.13, using settings 'mysite.settings'
+    Starting development server at http://127.0.0.1:8000/
+    Quit the server with CONTROL-C.
+
+  (myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/jango/mysite$ python manage.py test polls
+    Creating test database for alias 'default'...
+    System check identified no issues (0 silenced).
+    .........
+    ----------------------------------------------------------------------
+    Ran 9 tests in 0.026s
+
+    OK
+    Destroying test database for alias 'default'...
+
+  (myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/udemy/gamerater$ python3 manage.py makemigrations
+
+  (myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/udemy/gamerater$ python3 manage.py migrate
+
+  (myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/udemy/gamerater$ python3 manage.py createsuperuser
+Username (leave blank to use 'kamil'): 
+Email address: kamiljankos23@gmail.com
+Password: Boromir!23
+Password (again): Boromir!23
+Superuser created successfully.
+
+
+
+
+
+
+

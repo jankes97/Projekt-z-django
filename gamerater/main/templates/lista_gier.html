@@ -1,0 +1,48 @@
+{% extends 'glowny.html' %}
+
+{% block title %} Moja biblioteka gier {% endblock %}
+
+
+{% block body %}
+    {% csrf_token %}
+
+  <div class="jumbotron" style="width: 1250px;">
+    <h1 class="display-4">
+      {% if user.is_authenticated%}
+        Witaj {{ user.username }}<br>
+        <a class="btn btn-primary" href="{% url 'logout' %}">Logout</a>
+      {% else %}
+        Witaj "Bezimienny"! Zaloguj się :-)<br>
+        <a class="btn btn-primary" href="{% url 'login' %}">Login</a>
+        <h6>Jeśli nie masz konta skontaktuj się z administratorem strony :-)</h6>
+      {% endif %}
+    </h1>
+   
+    <hr class="my-4">
+    <p>Bibioteka gier</p>
+    <a href="{% url 'dodaj_gre' %}"><button type="button" class="btn btn-success"><i class="far fa-plus-square"></i> Dodaj </button></a>
+  </div>
+  
+  {% for gry in gry %}
+    <div class="card">
+      <div class="card-body">
+        <img src="/media/{{gry.photo}}">
+        <div class="row">
+          <div class="col-sm-9">
+            <h2>{{ gry }}</h2>
+            <h3>Rok wydania: {{ gry.year }}</h3>
+          </div>
+          <div class="col-sm-3">
+            <a href="{% url 'edytuj_gre' gry.id %}"><button type="button" class="btn btn-warning"><i class="fas fa-edit"></i> Edytuj</button></a>
+            <a href="{% url 'usun_gre' gry.id %}"><button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i> Usuń</button></a>
+          </div>
+          <div class="row">
+            <p class="desc">{{ gry.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  {% endfor %}
+
+{% endblock %}
