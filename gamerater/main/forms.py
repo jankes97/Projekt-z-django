@@ -1,8 +1,10 @@
 from django.forms import ModelForm
-from .models import Game
+from .models import Games
 
 
 class GameForm(ModelForm):
   class Meta:
-    model = Game
-    fields = ['name', 'platform', 'year', 'released', 'description', 'metacritic_rating', 'photo']
+    model = Games
+    fields = ['name', 'platform', 'year', 'released', 'description', 'rating', 'photo', 'info']
+
+

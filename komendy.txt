@@ -1,0 +1,44 @@
+kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$ python3 -m venv myvenv
+
+kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$ source myvenv/bin/activate
+(myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$
+
+(myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$ pip install pillow
+Collecting pillow
+  Using cached https://files.pythonhosted.org/packages/d2/c2/f84b1e57416755e967236468dcfb0fad7fd911f707185efc4ba8834a1a94/Pillow-6.0.0-cp36-cp36m-manylinux1_x86_64.whl
+Installing collected packages: pillow
+Successfully installed pillow-6.0.0
+(myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$
+
+(myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$ python3 -m pip install --upgrade pip
+Cache entry deserialization failed, entry ignored
+Collecting pip
+  Using cached https://files.pythonhosted.org/packages/d8/f3/413bab4ff08e1fc4828dfc59996d721917df8e8583ea85385d51125dceff/pip-19.0.3-py2.py3-none-any.whl
+Installing collected packages: pip
+  Found existing installation: pip 9.0.1
+    Uninstalling pip-9.0.1:
+      Successfully uninstalled pip-9.0.1
+Successfully installed pip-19.0.3
+(myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$ 
+
+(myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$ pip install django
+Collecting django
+  Using cached https://files.pythonhosted.org/packages/54/85/0bef63668fb170888c1a2970ec897d4528d6072f32dee27653381a332642/Django-2.2-py3-none-any.whl
+Collecting sqlparse (from django)
+  Using cached https://files.pythonhosted.org/packages/ef/53/900f7d2a54557c6a37886585a91336520e5539e3ae2423ff1102daf4f3a7/sqlparse-0.3.0-py2.py3-none-any.whl
+Collecting pytz (from django)
+  Using cached https://files.pythonhosted.org/packages/61/28/1d3920e4d1d50b19bc5d24398a7cd85cc7b9a75a490570d5a30c57622d34/pytz-2018.9-py2.py3-none-any.whl
+Installing collected packages: sqlparse, pytz, django
+Successfully installed django-2.2 pytz-2018.9 sqlparse-0.3.0
+(myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$ 
+
+(myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$ django-admin startproject gamerater
+(myvenv) kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$
+
+kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy/gamerater$ python3 manage.py startapp main
+
+kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$ source venv/bin/activate
+(venv) kamil@kamil-asus-ubuntu:~/Dokumenty/nowy-udemy$
+
+
+

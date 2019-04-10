@@ -1,0 +1,7 @@
+gamerater/main/ models.py -> modele reprezentacji bazy daynych
+
+gamerater/main/ views.py -> zestaw funkcji, które działą po wywołaniu url
+
+gamerater/main/ apps.py -> plik zaiwera info o naszej aplikacji
+
+
